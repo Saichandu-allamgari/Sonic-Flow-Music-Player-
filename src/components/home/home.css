@@ -1,0 +1,28 @@
+.slick-slider {
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  .slick-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .slick-prev, .slick-next {
+    overflow: visible;
+    
+  }
+
+ 
+  .carousel-item img {
+    height: 400px;
+    object-fit: cover;
+    border-radius: 10px;
+    
+  }
+  
+  .car-slide{
+    border-radius: 10px;
+    
+  }
