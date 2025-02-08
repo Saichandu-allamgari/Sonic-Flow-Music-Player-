@@ -13,9 +13,6 @@ function AlbumInfo() {
     const [songsData, setSongsData] = useState([]);
     const [search, setSearch] = useState("");
 
-    
-
-
 
 
   useEffect(()=>{
