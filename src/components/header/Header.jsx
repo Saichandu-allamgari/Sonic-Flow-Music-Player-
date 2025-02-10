@@ -2,6 +2,7 @@ import { Link, Navigate, useNavigate } from "react-router-dom";
 import { AuthContext } from "../auth/Auth";
 import { useContext } from "react";
 import { enqueueSnackbar } from "notistack";
+import "../../../src/App.css"
 
 
 function Header() {
@@ -23,7 +24,7 @@ function Header() {
   };
 
   return (
-    <nav className="bg-slate-400 p-2 pl-4  navbar flex justify-between items-center">
+    <nav className="bg-slate-400 p-2 pl-4 navbar  flex justify-between items-center">
 
     <div><h4>Sonic <span className="text-white">Flow</span></h4></div>
     <div><ul className="flex justify-between items-center px-6 text-xl">
